@@ -97,7 +97,7 @@ export default {
     getStatusIcon(status) {
       switch (status) {
         case "BLOCKED":
-          return "mdi-block-helper";
+          return "mdi-cancel";
         case "READY":
           return "mdi-circle-double";
         case "RUNNING":

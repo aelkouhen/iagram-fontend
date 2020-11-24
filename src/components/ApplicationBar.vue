@@ -70,7 +70,7 @@ export default {
     getStatusIcon(status) {
       switch (status) {
         case "BLOCKED":
-          return "mdi-block-helper";
+          return "mdi-cancel";
         case "READY":
           return "mdi-circle-double";
         case "RUNNING":
@@ -98,7 +98,7 @@ export default {
     getActionIcon(status) {
       switch (status) {
         case "BLOCKED":
-          return "mdi-block-helper";
+          return "mdi-play";
         case "READY":
           return "mdi-play";
         case "RUNNING":
